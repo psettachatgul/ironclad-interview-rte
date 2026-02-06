@@ -65,6 +65,7 @@ const locale = {
     goToPage: 'Go to page',
     ofPages: 'of',
   },
+  charts: {},
 };
 
 export default locale;

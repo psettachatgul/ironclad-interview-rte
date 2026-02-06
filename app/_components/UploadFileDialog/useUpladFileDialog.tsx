@@ -46,7 +46,7 @@ export const useUpladFileDialog = () => {
             params: {
               fileName,
             },
-            timeout: 25 * 60 * 1000, // 15 minutes timeout for large files
+            timeout: 15 * 60 * 1000, // 15 minutes timeout for large files
             onUploadProgress: (ev) => {
               const percentCompleted =
                 isNil(ev.total) ? 0 : Math.round((ev.loaded * 100) / (ev.total));

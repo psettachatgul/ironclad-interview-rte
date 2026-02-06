@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { handleRoute } from '../../../../../ui-demo-dashboard/app/api/handleRoute';
 import { ZImportLogFileParams } from './_schemas';
 import { handleUpload, HandleUploadBody } from '@vercel/blob/client';
 import { del } from '@vercel/blob';
 import axios from 'axios';
 import { uploadJsonStream } from '../../../../lib/jsonStreamHelpers';
+import { handleRoute } from '../../../../lib/routes';
 
 export const maxDuration = 300;
 

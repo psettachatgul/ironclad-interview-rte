@@ -8,7 +8,7 @@ export type AlertMessage = string | ReactElement;
 
 export type SetAlert = (
   severity: TAlertSeverity,
-  message?: unknown,
+  message?: string | ReactElement,
 ) => void;
 
 const AlertContext = createContext<SetAlert>(() => { });

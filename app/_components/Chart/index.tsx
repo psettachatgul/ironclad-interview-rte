@@ -37,7 +37,7 @@ const Chart = ({
             data: [
               ..._chartParams.data,
               {
-                name: get(locale.charts, name),
+                name: get(locale.charts, name, 'Chart'),
                 ...values,
               },
             ],
