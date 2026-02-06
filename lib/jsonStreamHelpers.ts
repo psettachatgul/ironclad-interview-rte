@@ -1,9 +1,6 @@
 import { JSONParser } from '@streamparser/json-node';
 import { Readable } from 'stream';
 
-const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
-const STREAM_TIMEOUT = 5 * 60 * 1000; // 5 minutes
-
 export type UploadJsonConfig = {
   onData?: (chunk: {
     value: unknown,
