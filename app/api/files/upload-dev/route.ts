@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Readable } from 'node:stream';
-import { handleRoute } from '../../../../lib/routes';
+import { handleRoute } from '../../../../_lib/routes';
 import { ZUploadFileParams } from '../upload/_schemas';
-import { uploadJsonStream } from '../../../../lib/jsonStreamHelpers';
+import { uploadJsonStream } from '../../../../_lib/jsonStreamHelpers';
 
 export const maxDuration = 300;
 

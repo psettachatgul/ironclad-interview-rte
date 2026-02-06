@@ -3,8 +3,8 @@ import { ZUploadFileParams } from './_schemas';
 import { handleUpload, HandleUploadBody } from '@vercel/blob/client';
 import { del } from '@vercel/blob';
 import axios from 'axios';
-import { uploadJsonStream } from '../../../../lib/jsonStreamHelpers';
-import { handleRoute } from '../../../../lib/routes';
+import { uploadJsonStream } from '../../../../_lib/jsonStreamHelpers';
+import { handleRoute } from '../../../../_lib/routes';
 
 export const maxDuration = 300;
 
