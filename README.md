@@ -65,7 +65,7 @@ A modern, full-stack web application built with Next.js for managing and analyzi
 
 2. **Install Dependencies**
    ```bash
-   npm install
+   yarn install
    ```
 
 3. **Configure Environment Variables**
@@ -81,7 +81,7 @@ A modern, full-stack web application built with Next.js for managing and analyzi
 
 4. **Verify Installation**
    ```bash
-   npm run lint
+   yarn run lint
    ```
 
 ## Getting Started
@@ -89,7 +89,7 @@ A modern, full-stack web application built with Next.js for managing and analyzi
 ### Development Server
 
 ```bash
-npm run dev
+yarn run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
@@ -99,8 +99,8 @@ The app will automatically reload as you make changes to files.
 ### Production Build
 
 ```bash
-npm run build
-npm start
+yarn run build
+yarn start
 ```
 
 ## Project Architecture
@@ -237,10 +237,10 @@ Environment variables for production:
 
 | Script | Description |
 |--------|-------------|
-| `npm run dev` | Start development server with environment variables from `.env.development.local` |
-| `npm run build` | Build the project for production |
-| `npm start` | Start production server |
-| `npm run lint` | Run ESLint to check code quality |
+| `yarn run dev` | Start development server with environment variables from `.env.development.local` |
+| `yarn run build` | Build the project for production |
+| `yarn start` | Start production server |
+| `yarn run lint` | Run ESLint to check code quality |
 
 ## Code Standards
 
@@ -258,7 +258,7 @@ When working on this project:
 2. Keep components small and focused
 3. Use locale strings for all user-facing text
 4. Maintain TypeScript strict mode compliance
-5. Run linting before committing: `npm run lint`
+5. Run linting before committing: `yarn run lint`
 6. Add appropriate error handling and validation using Zod
 
 ## License
