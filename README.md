@@ -116,6 +116,7 @@ ironclad-interview-rte/
 │   │   ├── DataTable/            # Paginated table with filtering/sorting
 │   │   ├── Filter/               # Filter criteria builder
 │   │   ├── FilterDialog/         # Filter modal dialog
+│   │   ├── Form/                 # Form wrapper with react-hook-form
 │   │   ├── Sort/                 # Sort criteria builder
 │   │   ├── SortDialog/           # Sort modal dialog
 │   │   ├── Table/                # Base table component
@@ -163,6 +164,14 @@ ironclad-interview-rte/
 - Renders bar charts using Recharts
 - Displays vulnerability data by category (Risk Factors, Severity, Kai Status, Package Type)
 - Theme-aware styling
+
+#### **Form Component** (`app/_components/Form/`)
+- Wraps react-hook-form's FormProvider for centralized form state management
+- Supports optional title display with Material-UI Typography
+- Renders form fields as children
+- Action buttons row at the bottom with dark mode support
+- Handles form submission with optional form name attribute
+- Full TypeScript generic support for type-safe form values
 
 #### **DataTable Component** (`app/_components/DataTable/`)
 - Wrapper component combining table, filtering, and sorting
