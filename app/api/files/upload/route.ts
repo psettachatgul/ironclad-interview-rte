@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { ZImportLogFileParams } from './_schemas';
+import { ZUploadFileParams } from './_schemas';
 import { handleUpload, HandleUploadBody } from '@vercel/blob/client';
 import { del } from '@vercel/blob';
 import axios from 'axios';
@@ -13,7 +13,7 @@ export const POST = handleRoute(
 
     const body = (await request.json()) as HandleUploadBody;
 
-    const { fileName } = ZImportLogFileParams.parse(params);
+    const { fileName } = ZUploadFileParams.parse(params);
 
     const jsonResponse = await handleUpload({
       body,

@@ -1,7 +1,7 @@
 import z from 'zod';
 
-export const ZImportLogFileParams = z.object({
+export const ZUploadFileParams = z.object({
   fileName: z.string(),
 });
 
-export type TImportLogFileParams = z.infer<typeof ZImportLogFileParams>;
+export type TUploadFileParams = z.infer<typeof ZUploadFileParams>;

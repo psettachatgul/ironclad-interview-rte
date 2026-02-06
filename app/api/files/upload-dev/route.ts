@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Readable } from 'node:stream';
 import { handleRoute } from '../../../../lib/routes';
-import { ZImportLogFileParams } from '../upload/_schemas';
+import { ZUploadFileParams } from '../upload/_schemas';
 import { uploadJsonStream } from '../../../../lib/jsonStreamHelpers';
 
 export const maxDuration = 300;
@@ -10,7 +10,7 @@ export const maxDuration = 300;
 export const POST = handleRoute(
   async (request: NextRequest, params) => {
 
-    const { fileName } = ZImportLogFileParams.parse(params);
+    const { fileName } = ZUploadFileParams.parse(params);
 
     const body = request.body;
 
