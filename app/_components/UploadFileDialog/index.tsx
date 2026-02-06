@@ -12,7 +12,7 @@ import {
   Alert,
 } from '@mui/material';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import UploadProgressBar from './UploadProgressBar';
 import UploadFileDialogTrigger from './UploadFileDialogTrigger';
 

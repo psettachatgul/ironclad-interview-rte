@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 import { SortConfig, SortCrit, SortInstance } from './types';
 import SortDirection from './SortDirection';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 
 interface SortCriteriaProps {
   sortConfigs: SortConfig[];

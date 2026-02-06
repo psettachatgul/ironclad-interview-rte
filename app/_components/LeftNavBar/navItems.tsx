@@ -2,7 +2,7 @@
 
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { NavItem } from './types';
 import UploadFileDialog, { UploadFileDialogPropTypes } from '../UploadFileDialog';
 import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';

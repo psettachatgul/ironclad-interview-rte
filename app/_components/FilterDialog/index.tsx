@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import FilterComponent from '../Filter';
 import SearchIcon from '@mui/icons-material/Search';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { TFilter, TFilterConfig } from '../Filter/_schemas';
 
 interface FilterDialogProps {

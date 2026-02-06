@@ -6,7 +6,7 @@ import { ColConfig } from '../Table/types';
 import FilterDialog from '../FilterDialog';
 import SortDialog from '../SortDialog';
 import { SortConfig } from '../Sort/types';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { useTablePagination } from './useTablePagination';
 import { TFilter, TFilterConfig } from '../Filter/_schemas';
 import { TSort } from '../Sort/_schemas';

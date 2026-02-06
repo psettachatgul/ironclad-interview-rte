@@ -12,7 +12,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { SortConfig } from './types';
 import SortCriteria from './SortCriteria';
 import { useSort } from './useSort';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { TSort } from './_schemas';
 
 

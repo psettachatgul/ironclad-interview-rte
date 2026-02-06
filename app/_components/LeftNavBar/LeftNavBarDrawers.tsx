@@ -12,7 +12,7 @@ import {
   Typography,
   useTheme,
 } from '@mui/material';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { useNavBarItems } from './useNavBarItems';
 import { NavItem } from './types';
 

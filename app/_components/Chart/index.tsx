@@ -15,7 +15,7 @@ import { useMemo } from 'react';
 import { useTheme } from '@mui/material/styles';
 import { ChartData, ChartDataPoint } from './types';
 import { getRandomBarColor } from './helpers';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import get from 'lodash/get';
 
 interface PropTypes {

@@ -3,7 +3,7 @@
 import React, { useState, useRef, MouseEventHandler } from 'react';
 import useAlertContext from '../../_contexts/AlertProvider/useAlertContext';
 import { upload } from '@vercel/blob/client';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import axios from 'axios';
 import isNil from 'lodash/isNil';

@@ -10,7 +10,7 @@ import {
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import LeftNavBarDrawers from './LeftNavBarDrawers';
 import { useState } from 'react';
 

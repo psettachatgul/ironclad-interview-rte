@@ -10,7 +10,7 @@ import {
   SelectChangeEvent,
 } from '@mui/material';
 import { TFilterConfig } from '../_schemas';
-import locale from '../../../../locale/en-US';
+import locale from '../../../../_locale/en-US';
 
 interface CriteriaValueProps {
   config: TFilterConfig;

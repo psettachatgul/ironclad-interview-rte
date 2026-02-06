@@ -7,7 +7,7 @@ import {
   Typography,
 } from '@mui/material';
 import SwapVerticalCircleIcon from '@mui/icons-material/SwapVerticalCircle';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 
 interface SortDirectionProps {
   onChange: (direction: 1 | -1) => void;

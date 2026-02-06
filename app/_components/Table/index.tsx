@@ -12,7 +12,7 @@ import {
   useTheme,
 } from '@mui/material';
 import { ColConfig } from './types';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import get from 'lodash/get';
 
 interface TableProps {

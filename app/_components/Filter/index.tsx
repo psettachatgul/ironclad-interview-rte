@@ -14,7 +14,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
 import Criteria from './Criteria';
 import { useFilter } from './useFilter';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { TFilter, TFilterConfig } from './_schemas';
 
 interface FilterProps {

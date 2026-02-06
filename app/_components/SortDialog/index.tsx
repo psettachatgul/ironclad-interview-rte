@@ -12,7 +12,7 @@ import {
 import SortComponent from '../Sort';
 import { SortConfig } from '../Sort/types';
 import SortIcon from '@mui/icons-material/Sort';
-import locale from '../../../locale/en-US';
+import locale from '../../../_locale/en-US';
 import { TSort } from '../Sort/_schemas';
 
 interface SortDialogProps {

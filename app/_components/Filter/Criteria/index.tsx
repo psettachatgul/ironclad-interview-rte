@@ -14,7 +14,7 @@ import { ErrorOutline as ErrorOutlineIcon } from '@mui/icons-material';
 import { TFilterConfig } from '../_schemas';
 import CriteriaValue from './CriteriaValue';
 import { CriteriaInstance } from './types';
-import locale from '../../../../locale/en-US';
+import locale from '../../../../_locale/en-US';
 
 interface CriteriaProps {
   filterConfigs: TFilterConfig[];
