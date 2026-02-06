@@ -108,7 +108,7 @@ npm start
 ### Directory Structure
 
 ```
-base-runtime-environment-nextjs/
+ironclad-interview-rte/
 ├── app/
 │   ├── _components/              # Reusable React components
 │   │   ├── Chart/                # Data visualization component
@@ -131,16 +131,23 @@ base-runtime-environment-nextjs/
 │   │   └── files/
 │   │       ├── upload/           # File upload handler (production)
 │   │       └── upload-dev/       # File upload handler (development)
+│   ├── home/                      # Home page route and components
+│   │   ├── page.tsx              # Home page
+│   │   └── _components/
 │   ├── layout.tsx                # Root layout with providers
-│   ├── page.tsx                  # Home page
+│   ├── page.tsx                  # Main page
+│   ├── page.module.css           # Main page styles
+│   ├── favicon.ico               # Favicon
 │   └── globals.css               # Global styles
 ├── lib/                          # Utility functions and helpers
 │   ├── constants.ts              # Enum definitions (Collections, PackageType, Severity, etc.)
 │   ├── jsonStreamHelpers.ts      # JSON streaming parser utilities
 │   ├── mongo.ts                  # MongoDB connection and transaction management
 │   └── routes.ts                 # Route handling utilities
-├── locale/
-│   └── en-US.ts                  # Internationalization strings
+├── _locale/                      # Internationalization strings
+│   └── en-US.ts                  # English locale strings
+├── _schemas/                     # Shared Zod schemas
+│   └── index.ts                  # Schema exports
 ├── public/                       # Static assets
 ├── .vscode/                      # VS Code settings
 ├── eslint.config.mjs             # ESLint configuration
@@ -216,8 +223,7 @@ base-runtime-environment-nextjs/
 
 2. For local MongoDB, install and run:
    ```bash
-   brew install mongodb-community
-   brew services start mongodb-community
+   kubectl apply -f ./__k8s__/local
    ```
 
 ### Production Setup
